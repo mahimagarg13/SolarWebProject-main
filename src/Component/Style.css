@@ -494,6 +494,9 @@ margin-left: 25%;
 .fnt-s{
     font-size: 1rem;
 }
+.pp{
+    color: gray;
+}
 /* .color{
     color: white;
 } */
@@ -506,6 +509,9 @@ margin-left: 25%;
      /* float: left;  */
     margin-right: 2%;
 
+}
+.pp{
+    font-size: 0.8rem;
 }
 .mission{
     width: 38%;
