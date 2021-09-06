@@ -1,40 +1,38 @@
 // import React  from "react";
-import Img6 from '../Img/solarizer1.jpeg';
-import Img7 from '../Img/solarizer2.jpeg';
-import Img8 from '../Img/solarizer3.jpeg';
+
 import Img9 from '../Img/solarizer4.jpeg';
 
 function hybridsystem() {
     return (
         <div className="div">
-            <p className="heading">Solarizer Heat Pump/HYBRID SYSTEM</p>
+            <p className="heading m">HEAT PUMP/SOLAR HYBRID SYSTEM FOR HOT WATER</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src={Img6} alt="hpsv" />
+                    <img className="card-img-top" src="https://www.uniletsolar.com/wp-content/uploads/2019/05/Heat-Pump-Modified.png" alt="hpsv" />
                     <div className="card-body">
                         <h5 className="card-title">Solarizer Spring HPSV-500-13 </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                         <a href="PDF's/Solarizer_Heat-Pump-Brochure.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
-                        <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
+                        <button className="btn  btn-outline-success" target="_blank" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img7} alt="hpsh" />
+                    <img className="card-img-top" src="https://shop.emmvee.com/wp-content/uploads/2021/02/Spring-Hp-3-Panel-Left-2.png" alt="hpsh" />
                     <div className="card-body">
                         <h5 className="card-title">Solarizer Spring HPSH-300-09 </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                         <a href="PDF's/Solarizer_Heat-Pump-Brochure.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
-                        <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
+                        <button className="btn  btn-outline-success" target="_blank" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img8} alt="hpv" />
+                    <img className="card-img-top" src="https://th.bing.com/th/id/OIP.QYVuC_vffRObQKKT6UwCpAHaGJ?pid=ImgDet&rs=1" alt="hpv" />
                     <div className="card-body">
                         <h5 className="card-title">Solarizer Spring HPV-500-18</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="PDF's/Solarizer_Heat-Pump-Brochure.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="PDF's/Solarizer_Heat-Pump-Brochure.pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -43,7 +41,7 @@ function hybridsystem() {
                     <div className="card-body">
                         <h5 className="card-title">Heat Pumps for domestic as well as for  hotels , hospitals , hostel ,and Resorts </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="PDF's/Solarizer_Heat-Pump-Brochure.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="PDF's/HPA Leaflet -300-450.pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>

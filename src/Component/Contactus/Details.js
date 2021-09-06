@@ -53,7 +53,7 @@ function Details() {
                     <div className="d-flex inform g-0" flexDirection="row" >
                         <div className="ico">
 
-                            <h6 className="mb" > < PhoneAndroidIcon style={{ color: blueGrey[100] }} /></h6>
+                            <h6 className="mb mu" > < PhoneAndroidIcon style={{ color: blueGrey[100] }} /></h6>
 
                             <h6 className="mb">< MailOutlineRoundedIcon style={{ color: blueGrey[100] }} /></h6>
                             <h6 className="mb">< PinDropIcon style={{ color: blueGrey[100] }} /></h6>
@@ -61,7 +61,7 @@ function Details() {
                         </div>
 
                         <div className="information">
-                            <div className="m-bt">+91-9516247583,<br />+91-9826885558</div>
+                            <div className="m-bt">+91-9516247583,<br />+91-8461937264</div>
                             <div className="m-bt">abhi85558@yahoo.co.in<br /></div>
                             <div className="">130, Mangal Murthi Nagar, Scheme No 77, Behind Mayur Hospital, Ring Road, Indore, 452018 Madhya Pradesh
                             </div >
@@ -70,10 +70,10 @@ function Details() {
 
                     </div>
                     <div className="text-center mt-3">
-                        <a href="https://www.facebook.com" className="icon ">< FacebookIcon style={{ color: blueGrey[100] }} /></a>
-                        <a href="https://www.whatsapp.com" className="icon">< WhatsAppIcon style={{ color: blueGrey[100] }} /></a>
-                        <a href="https://www.instagram.com" className="icon">< InstagramIcon style={{ color: blueGrey[100] }} /></a>
-                        <a href="https://twitter.com" className="icon">< TwitterIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://www.facebook.com/NYASA-Energy-System-1819123591654014/"  target="_blank" className="icon ">< FacebookIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://wa.me/9516247583"  target="_blank" className="icon">< WhatsAppIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://www.instagram.com/nyasaenerygysystem/"  target="_blank" className="icon">< InstagramIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://twitter.com/NyasaEnergy"  target="_blank" className="icon">< TwitterIcon style={{ color: blueGrey[100] }} /></a>
 
                     </div>
                 </div>

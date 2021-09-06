@@ -23,7 +23,7 @@ function Choose() {
 								<div className="card cardContainerYellow m-b  text-center">
 									<div className="card-body  m-left">
 										<img className="h-w" src="/img/1p.jpeg"  alt="img"/>
-										<h6 className=""> Ajay S.</h6>
+										<h6 className="color "> Ajay S.</h6>
 										<p className="pd">"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply text of the printing and typesetting industry text of the printing and typesetting industry." </p>
 
 									</div></div>

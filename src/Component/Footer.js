@@ -49,7 +49,7 @@ function Footer() {
 
                < MailOutlineRoundedIcon style={{ color: orange[500] }} />                <a href="/contact" className="ca">abhi85558@yahoo.co.in</a><br />
 
-              <LocationOnRoundedIcon style={{ color: orange[500] }} />             <a href="/contact" className="ca">Bhopal, 442001 Madhya Pradesh</a> 
+              <LocationOnRoundedIcon style={{ color: orange[500] }} />             <a href="/contact" className="ca">Indore, 452018 Madhya Pradesh</a> 
           
           </div></div>
         <div className="forthbox mt">
@@ -57,14 +57,15 @@ function Footer() {
           <ColoredLine color="gray" />
          
           <div className="c">
-            <a href="https://www.facebook.com" className="icon ">< FacebookIcon style={{ color: orange[500] }} /></a>
-            <a href="https://www.whatsapp.com" className="icon">< WhatsAppIcon style={{ color: orange[500] }} /></a>
-            <a href="https://www.instagram.com" className="icon"><  InstagramIcon  style={{ color: orange[500] }} /></a>
-            <a href="https://twitter.com" className="icon">< TwitterIcon   style={{ color: orange[500] }} /></a>
+            <a href="https://www.facebook.com/NYASA-Energy-System-1819123591654014/"  target="_blank" className="icon ">< FacebookIcon style={{ color: orange[500] }} /></a>
+            <a href="https://wa.me/9516247583" target="_blank" className="icon">< WhatsAppIcon style={{ color: orange[500] }} /></a>
+            <a href="https://www.instagram.com/nyasaenerygysystem/"  target="_blank" className="icon"><  InstagramIcon  style={{ color: orange[500] }} /></a>
+            <a href="https://twitter.com/NyasaEnergy"  target="_blank" className="icon">< TwitterIcon   style={{ color: orange[500] }} /></a>
           </div></div>
       </div>
 
-      <div className="text-center copyright">Copyright © 2021</div>
+      <div className="text-center copyright">
+      Copyright © 2021</div>
     </div>
 
 

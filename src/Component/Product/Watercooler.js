@@ -1,28 +1,20 @@
 import React from "react";
-import Img24 from '../Img/watercooler.jpeg';
+// import Img24 from '../Img/watercooler.jpeg';
 import Img25 from '../Img/watercooler1.jpeg';
 import Img26 from '../Img/watercooler2.jpeg';
 function  Watercooler() {
     return(
 <div className="watercooler div">
-<p className="heading">
+<p className="heading m">
     Water Cooler
 </p>
 <div className="d-flex flex-wrap text-center justify-content-center">
-                <div className="card card-w" >
-                    <img className="card-img-top" src={Img24} alt="watercooler" />
-                    <div className="card-body">
-                        <h5 className="card-title"> Water cooler 1</h5>
-                        {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/watercooler" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
-                        <button className="btn  btn-outline-success"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
-                    </div>
-                </div>
+               
 
                 <div className="card card-w">
                     <img className="card-img-top" src={Img25} alt="watercooler" />
                     <div className="card-body">
-                        <h5 className="card-title"> Water cooler 2</h5>
+                        <h5 className="card-title"> Water cooler 1</h5>
                         <a href="/PDF's/watercooler" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
@@ -31,7 +23,7 @@ function  Watercooler() {
                 <div className="card card-w">
                     <img className="card-img-top" src={Img26} alt="watercooler" />
                     <div className="card-body">
-                        <h5 className="card-title"> Water cooler 3</h5>
+                        <h5 className="card-title"> Water cooler 2</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                         <a href="/PDF's/watercooler" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>

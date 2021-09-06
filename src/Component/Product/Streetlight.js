@@ -4,7 +4,7 @@ import Img19 from '../Img/streetlight.jpeg';
 function streetlight() {
     return (
         <div className="div">
-            <p className="heading">Street light</p>
+            <p className="heading m">Street light</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
                     <img className="card-img-top" src={Img19} alt="streetlight1" />

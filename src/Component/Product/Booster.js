@@ -1,27 +1,27 @@
 // import React  from "react";
-import Img1 from '../Img/booster1.jpeg';
-import Img2 from '../Img/mhn.jpeg';
+// import Img1 from '../Img/booster1.jpeg';
+// import Img2 from '../Img/mhn.jpeg';
 function Booster() {
     return (
         <div className="div">
-            <p className="heading"> BOOSTER</p>
+            <p className="heading m"> Pressure Booster Pumps</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src={Img1} alt="mh-series" />
+                    <img className="card-img-top" src="https://malvernirrigation.com.au/wp-content/uploads/2016/08/s-l640.jpg" alt="" />
                     <div className="card-body">
-                        <h5 className="card-title"> MH-SERIES </h5>
+                        <h5 className="card-title"> GRUNDFOS CM BOOSTER PUMPS</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/mh.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/CM Booster.pdf" target="_blank"  className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img2} alt="mhn-series" />
+                    <img className="card-img-top" src="https://th.bing.com/th/id/OIP.LyHHHjgOCRgbmi1hJXVtagHaHa?w=199&h=199&c=7&r=0&o=5&pid=1.7" alt="" />
                     <div className="card-body">
-                        <h5 className="card-title">MHN-SERIES </h5>
+                        <h5 className="card-title">LUBI PUMPS</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/mh2.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/Lubi Pump.pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import Img23 from '../Img/lhs.jpeg';
 function SubmersiblePump() {
     return (
         <div className="div">
-            <p className="heading">Solar  Water Purifier</p>
+            <p className="heading m">Solar  Water Purifier</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
                     <img className="card-img-top" src={Img22} alt="LHL" />

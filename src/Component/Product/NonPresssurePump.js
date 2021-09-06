@@ -1,69 +1,63 @@
-// // import React  from "react";
-import Img10 from '../Img/100lpd.jpeg';
-import Img11 from '../Img/150lpd.jpeg';
-import Img12 from '../Img/200lpd.jpeg';
-import Img33 from '../Img/250lpd.jpeg';
-import Img34 from '../Img/300lpd.jpeg';
-import Img35 from '../Img/500lpd.jpeg';
+
 
 function nonpressurepump() {
     return (
         <div className="div">
-            <p className="heading">Farmson Solar water Heater for Non pressurize application </p>
+            <p className="heading m">Farmson Solar water Heater for Non pressurize application </p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src={Img10} alt="100lpd" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="100lpd" />
                     <div className="card-body">
                         <h5 className="card-title">  100 lpd  </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/nonpressurize.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img11} alt="150lpd" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="150lpd" />
                     <div className="card-body">
                         <h5 className="card-title"> 150 lpd  </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/nonpressurize.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                     <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img12} alt="200lpd" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="200lpd" />
                     <div className="card-body">
                         <h5 className="card-title">200 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/nonpressurize.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img33} alt="250lpd" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="250lpd" />
                     <div className="card-body">
                         <h5 className="card-title">250 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/nonpressurize.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img34} alt="300lpd" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="300lpd" />
                     <div className="card-body">
                         <h5 className="card-title">300 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/nonpressurize.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img35} alt="500lpd" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="500lpd" />
                     <div className="card-body">
                         <h5 className="card-title">500 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/nonpressurize.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="/PDF's/farmson.jpeg" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>

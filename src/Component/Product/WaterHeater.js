@@ -1,15 +1,12 @@
-// import React  from "react";
-import Img27 from '../Img/spring.jpeg';
-import Img28 from '../Img/ultra.jpeg';
-import Img29 from '../Img/value.jpeg';
+
 
 function WaterHeater() {
     return (
         <div className="div">
-            <p className="heading">Solar hot water systems </p>
+            <p className="heading m">Solar hot water systems </p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src={Img27} alt="" />
+                    <img className="card-img-top" src="https://th.bing.com/th/id/R.d1abe76fc07bfea902eb3b5cb7a8ce91?rik=ebse0CgKFK%2fVmg&riu=http%3a%2f%2fwww.rrtechnologies.co.in%2fimages%2fspring_200lpd.png&ehk=SpRp60hXXJIERhvgZrdCRpJe6v9Ulxr69eACZ%2fDWF5s%3d&risl=&pid=ImgRaw&r=0" alt="" />
                     <div className="card-body">
                         <h5 className="card-title"> Solarizer Spring </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -19,7 +16,7 @@ function WaterHeater() {
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img28} alt="ultra" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/DF/II/EA/SELLER-2793594/ultra-low-p1c5v2vqjq1qit1ritjq84hm1q2o-500x500.jpg" alt="ultra" />
                     <div className="card-body">
                         <h5 className="card-title"> Solarizer ULTRA </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -29,7 +26,7 @@ function WaterHeater() {
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img29} alt="value" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/MY/BK/MY-2351388/emmvee-solarizer-value-solar-hot-water-system-500x500.jpg" alt="value" />
                     <div className="card-body">
                         <h5 className="card-title">Solarizer VALUE </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}

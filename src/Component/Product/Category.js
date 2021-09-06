@@ -42,7 +42,7 @@ function Category() {
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/Water Booster Pump.png"  alt="booster" />
                                     <h6 className="color  text-center">
-                                        BOOSTER</h6>
+                                   PRESSURE BOOSTER </h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -50,25 +50,22 @@ function Category() {
                                     <a href="/booster" type="button" class="btn btn-outline-success">View Products</a >
 
                                 </div> </div>   </div>
-                                <div className="col">
+                                {/* <div className="col">
                             <div className="card card-div w m-b ">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/Lubi pumps.png"  alt="lubi" />
                                     <h6 className=" text-center color">
                                        LUBI PUMP</h6>
-                                    {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                    {/* <Button variant="outlined" color="primary">
-                                            View Products
-                                        </Button> */}
+                                    
                                     <a href="/lubiPump" type="button" class="btn btn-outline-success">View Products</a >
 
-                                </div> </div>   </div>
+                                </div> </div>   </div> */}
                         <div className="col">
                             <div className="card card-div w m-b">
 
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/solar hybrid system.png"  alt="hybrid" />
-                                    <h6 className="color  text-center"> SOLARIZER HEAT PUMP/HYBRID SYSTEM</h6>
+                                    <h6 className="color  text-center">HEAT PUMP/SOLAR HYBRID SYSTEM FOR HOT WATER</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -91,20 +88,16 @@ function Category() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        {/* <div className="col">
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/CM booster.png"  alt="booster"/>
                                     <h6 className="color  text-center">GRUNDFOS CM BOOSTER PUMP</h6>
-                                    {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                    {/* <Button variant="outlined" color="primary">
-                                            View Products
-                                        </Button> */}
                                     <a href="/grundosPump" type="button" class="btn btn-outline-success">View Products</a >
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         
                         {/* </div>
             </div>

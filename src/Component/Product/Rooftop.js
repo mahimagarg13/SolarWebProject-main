@@ -1,14 +1,14 @@
 
-import Img13 from '../Img/ongrid.jpeg';
+// import Img13 from '../Img/ongrid.jpeg';
 import Img14 from '../Img/offgrid.jpeg';
 
 function rooftop() {
     return (
         <div className="div">
-            <p className="heading">Solar Rooftop</p>
+            <p className="heading m">Solar Rooftop</p>
             <div className="d-flex flex-wrap  justify-content-center">
                 <div className="card text-center card-w" >
-                    <img className="card-img-top" src={Img13} alt="ongrid" />
+                    <img className="card-img-top" src="https://5.imimg.com/data5/TV/CY/MY-10927051/2-kw-solar-power-plant-500x500.jpg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title">ONGRID POWER PACK </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -18,7 +18,7 @@ function rooftop() {
                 </div>
 
                 <div className="card text-center card-w">
-                    <img className="card-img-top" src={Img14} alt="offgrid" />
+                    <img className="card-img-top" src={Img14} alt="" />
                     <div className="card-body">
                         <h5 className="card-title">OFFGRID POWER PACK </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}

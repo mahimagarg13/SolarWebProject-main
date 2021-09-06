@@ -7,8 +7,8 @@ export default function Galary(props) {
 
 
 
-        <p className="heading">Gallery</p>
-            <div className="text-center " handleSetTag="{setTag}">
+        <p className="m heading">Gallery</p>
+            <div className="text-center lm" handleSetTag="{setTag}">
                 <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="one" handleSetTag="{setTag}">Solar Heater</button>
                 <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="two" handleSetTag="{setTag}">Solarizer</button>
                 <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="three" handleSetTag="{setTag}">Rooftop</button>
