@@ -6,7 +6,7 @@ import Img5 from '../Img/scala.jpeg';
 function  GrundosPump() {
     return (
         <div className="div">
-            <p className="heading">GRUNDFOS CM BOOSTER PUMP</p>
+            <p className="heading ">GRUNDFOS CM BOOSTER PUMP</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
                     <img className="card-img-top" src={Img3} alt="cmbooster" />

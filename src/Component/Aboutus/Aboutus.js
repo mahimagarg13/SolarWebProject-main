@@ -1,7 +1,7 @@
 
 function About(params) {
     return(
-<div className="container margin-top">
+<div className="container-fluid d-flex flex-wrap m margin-top">
     <div className="content">
         <h1 className="h1-a">About Us</h1>
     <p className="p">
@@ -9,7 +9,7 @@ function About(params) {
 </p>
 </div>
      <div className="m-btm  image">
-         <img  className="resp" src="/image/solar.jpeg"  alt=""/>
+         <img  className=" f-l" src="/image/solar.jpeg"  alt=""/>
      </div>
 </div>
 

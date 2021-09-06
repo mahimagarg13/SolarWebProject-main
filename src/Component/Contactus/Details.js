@@ -14,7 +14,7 @@ function Details() {
     return (
         <div className="bg">
 
-            <div className="container" >
+            <div className="container-fluid d-flex flex-wrap" >
                 <div className="left m-top m-btm">
                     <Card>
                         <CardContent>
@@ -70,10 +70,10 @@ function Details() {
 
                     </div>
                     <div className="text-center mt-3">
-                        <a href="https://www.facebook.com/NYASA-Energy-System-1819123591654014/"  target="_blank" className="icon ">< FacebookIcon style={{ color: blueGrey[100] }} /></a>
-                        <a href="https://wa.me/9516247583"  target="_blank" className="icon">< WhatsAppIcon style={{ color: blueGrey[100] }} /></a>
-                        <a href="https://www.instagram.com/nyasaenerygysystem/"  target="_blank" className="icon">< InstagramIcon style={{ color: blueGrey[100] }} /></a>
-                        <a href="https://twitter.com/NyasaEnergy"  target="_blank" className="icon">< TwitterIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://www.facebook.com/NYASA-Energy-System-1819123591654014/" rel="noopener noreferrer" target="_blank" className="icon ">< FacebookIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://wa.me/9516247583"  target="_blank" rel="noopener noreferrer" className="icon">< WhatsAppIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://www.instagram.com/nyasaenerygysystem/" rel="noopener noreferrer" target="_blank" className="icon">< InstagramIcon style={{ color: blueGrey[100] }} /></a>
+                        <a href="https://twitter.com/NyasaEnergy" rel="noopener noreferrer"s target="_blank" className="icon">< TwitterIcon style={{ color: blueGrey[100] }} /></a>
 
                     </div>
                 </div>

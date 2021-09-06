@@ -2,7 +2,7 @@
 function OurMission() {
     return (
 
-        <div className="container">
+        <div className="container-fluid d-flex flex-wrap">
             <div className="mission">
                 <p className="heading"> Our Mission</p>
                 <hr />

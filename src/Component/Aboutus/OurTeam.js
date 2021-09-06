@@ -1,7 +1,7 @@
 
 function OurTeam(params) {
     return (
-        <div className="container ">
+        <div className="container-fluid ">
             <div className="main ">
                 {/* <h4 className="mt text-center">Our Team</h4> */}
 

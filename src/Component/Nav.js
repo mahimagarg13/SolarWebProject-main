@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "../App.css";
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,12 +14,14 @@ function Navbar() {
 
             <div className="rightside">
                 <div className="links" id={showLinks ? "hidden" : ""}>
-                    <a href="/">Home</a>
-                    <a href="/about">About Us</a>
-                    <a href="/product">Product</a>
-                    <a href="/service">Services</a>
-                    <a href="/portfolio">Portfolio</a>
-                    <a href="/contact">Contact Us</a>
+                <Link to="/" >Home</Link>
+                    <Link to="/about" >About Us</Link>
+                    <Link to="/product" >Product</Link>
+                    <Link to="/service" >Services</Link>
+                    <Link to="/portfolio" >Portfolio</Link>
+                    <Link to="/contact" >Contact Us</Link>
+
+                   
                 </div>
                 <button onClick={() => setShowLinks(!showLinks)} className="margin-right">
                     <MenuIcon />

@@ -8,7 +8,7 @@ function Category() {
             <p className="heading">What Are You Looking For?</p>
             <div className="product-container">
 
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col  ">
                             <div className="card card-div w m-b">

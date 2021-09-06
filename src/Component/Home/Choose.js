@@ -15,7 +15,7 @@ function Choose() {
 
 			<p className="heading ">Our Testimonials</p>
 			<p className="p1">Feedback</p>
-			<div className="splideContainer container">
+			<div className="splideContainer container	">
 				<div className="splide w-100" data-splide='{"autoplay":"true","perPage":"1"}'>
 					<div className="splide__track">
 						<ul className="splide__list flexWrap">

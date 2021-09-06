@@ -6,6 +6,7 @@ import TwitterIcon  from '@material-ui/icons/Twitter';
 import PhoneRoundedIcon from '@material-ui/icons/PhoneRounded';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
+import { Link } from 'react-router-dom';
 
 import {  orange } from '@material-ui/core/colors';
 const ColoredLine = ({ color }) => (
@@ -33,11 +34,11 @@ function Footer() {
           <ColoredLine color="gray" />
           <div className="c">
 
-            <a href="/about">About Us</a><br />
-            <a href="/product">Product</a><br />
-            <a href="services">Services</a><br />
-            <a href="Portfolio">Portfolio</a><br />
-            <a href="/contact">Contact Us</a><br />
+            <Link to="/about">About Us</Link><br />
+            <Link to="/product">Product</Link><br />
+            <Link to="service">Services</Link><br />
+            <Link to="Portfolio">Portfolio</Link><br />
+            <Link to="/contact">Contact Us</Link><br />
           </div>
         </div>
         <div className="thirdbox mt cl">
@@ -57,10 +58,10 @@ function Footer() {
           <ColoredLine color="gray" />
          
           <div className="c">
-            <a href="https://www.facebook.com/NYASA-Energy-System-1819123591654014/"  target="_blank" className="icon ">< FacebookIcon style={{ color: orange[500] }} /></a>
-            <a href="https://wa.me/9516247583" target="_blank" className="icon">< WhatsAppIcon style={{ color: orange[500] }} /></a>
-            <a href="https://www.instagram.com/nyasaenerygysystem/"  target="_blank" className="icon"><  InstagramIcon  style={{ color: orange[500] }} /></a>
-            <a href="https://twitter.com/NyasaEnergy"  target="_blank" className="icon">< TwitterIcon   style={{ color: orange[500] }} /></a>
+            <a href="https://www.facebook.com/NYASA-Energy-System-1819123591654014/" rel="noopener noreferrer" target="_blank" className="icon ">< FacebookIcon style={{ color: orange[500] }} /></a>
+            <a href="https://wa.me/9516247583" target="_blank" rel="noopener noreferrer" className="icon">< WhatsAppIcon style={{ color: orange[500] }} /></a>
+            <a href="https://www.instagram.com/nyasaenerygysystem/" rel="noopener noreferrer" target="_blank" className="icon"><  InstagramIcon  style={{ color: orange[500] }} /></a>
+            <a href="https://twitter.com/NyasaEnergy"  target="_blank" rel="noopener noreferrer" className="icon">< TwitterIcon   style={{ color: orange[500] }} /></a>
           </div></div>
       </div>
 
