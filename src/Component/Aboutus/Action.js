@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function Action(params) {
     return(
@@ -6,7 +7,7 @@ function Action(params) {
     <h1 className="h1plate color-white">Providing Value To Clients Through<br />
 Product & Innovation.</h1>
 {/* <button type="button" class="btn ">Contact Us Now</button> */}
-<div className=""><button type="button" class="btn btn-dark">Contact Us Now</button></div>
+<div className=""><Link to="/Contact" class="btn btn-dark">Contact Us Now</Link></div>
 
 </div>
 

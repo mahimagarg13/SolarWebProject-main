@@ -14,7 +14,7 @@ function Choose() {
 		<div className=" m-bottom">
 
 			<p className="heading ">Our Testimonials</p>
-			<p className="p1">Feedback</p>
+			{/* <p className="p1">Feedback</p> */}
 			<div className="splideContainer container	">
 				<div className="splide w-100" data-splide='{"autoplay":"true","perPage":"1"}'>
 					<div className="splide__track">

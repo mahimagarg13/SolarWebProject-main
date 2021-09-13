@@ -6,6 +6,21 @@
     box-sizing: border-box;
     /* font-family: 'Mulish', sans-serif; */
 }
+.mg-b40{
+    margin-bottom: 40px;
+}
+.mg-b30{
+    margin-bottom: 30px;
+}
+.mg-b10{
+    margin-bottom: 20px;
+}
+.mg-b60{
+margin-bottom: 55px;
+}
+.mrl{
+    margin-left: 20px;
+}
 .mr-l{
     margin-left: 10px;
 }
@@ -19,7 +34,8 @@
     width: 24%;
 }
 .mission_img{
-    width: 385px;
+    width: 23ss0px;
+    height: 250px;
     margin-top: 50px;
     margin-left: 2px;
     margin-right: 2px;
@@ -91,7 +107,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
  }
- .col{
+ .col{margin-bottom: 40px;
      display: flex;
      justify-content: center;
  }
@@ -100,7 +116,8 @@ justify-content: center;
     height: 100%;
 }
 .h1-a{margin-top: 35px;
-    margin-left: 35px;
+    color: black;
+    margin-left: 0px;
     /* font-size: 2rem; */
 }
 .main{
@@ -185,7 +202,7 @@ justify-content: center;
     text-align: center;
     color: green;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 .choose{background-color:white;
 /* height: 550px; */
@@ -257,7 +274,7 @@ margin-right: 10px;
     width: 290px;
 }
 .thirdbox{
-    width: 32%;
+    width: 25%;
 }
 .twobox{
     width: 15%;
@@ -270,7 +287,7 @@ margin-right: 10px;
     margin-left: 20px;
 }
 .ft{
-    width: 30%;
+    width: 27%;
 }
 .onebox{color: white;
     width: 30%;
@@ -293,11 +310,11 @@ margin-right: 10px;
 /* .mb-3{
     margin-top: 2%;
 } */
-.nl-text{
+.nl-text{text-align: center;
     color: white;
-    margin-top: 15%;
+    margin-top: 16%;
     margin-bottom: 15%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .nl-box{
@@ -305,7 +322,7 @@ margin-right: 10px;
     margin-bottom: 15%;
 }
 .form{
-    height: 45px;
+    height: 50px;
 }
 .navbar{
     margin: 0%!important;
@@ -313,7 +330,7 @@ margin-right: 10px;
     
 }
 .btn{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .btn-cl{
     background-color:#10325f;
@@ -521,6 +538,7 @@ margin-left: 10%;
     margin-right: 2%;
 
 }
+.col{margin-bottom: 30px;}
 .f-l{
     width: 100%;
     height: 100%;
@@ -634,7 +652,7 @@ flex-wrap: wrap;
     height: 750px;  
   } */
     .color{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .pd{
         font-size: 0.8rem;
@@ -667,7 +685,7 @@ width: 50%;
     margin-bottom: 15%;
 }
 .form{
-    height: 40px;
+    height: 45px;
 }
 .onebox{color: white;
     width: 30%;
@@ -675,15 +693,15 @@ width: 50%;
 }
 
 .thirdbox{
-    width: 35.1%;
+    width: 32%;
     font-size: 0.8rem;
-    margin-left: 30px;
+    margin-left: 20px;
 
 }
 .twobox{
-    width: 12%;
+    width: 15%;
     font-size: 0.8rem;
-margin-left: 30px;
+margin-left: 20px;
 }
 .forthbox{
     width: 14%;
@@ -716,6 +734,15 @@ margin-left: 30px;
 
 @media screen and (max-width:426px)
 {
+    .p1{
+        font-size: 1.1rem;
+    }
+    .mlr{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+.col{margin-bottom: 10px;}
+
     .f-l{
         width: 100%;
     }
@@ -726,7 +753,7 @@ margin-left: 30px;
         width: 100%;
     }
     .mission_img{
-        width: 100%;
+        width: 50%;
         margin-top: 10px;
      }
     .mb{
@@ -816,7 +843,7 @@ margin-left: 30px;
           width:  392px;
       }
         .color{
-            font-size: 1rem;
+            font-size: 1.3sssrem;
         }
         .pd{
             font-size: 0.8rem;
@@ -884,7 +911,10 @@ flex-direction: column;
 
 }
 .form{
-    height: 40px;
+    height: 44px;
+}
+.bb{
+    font-size: 1rem;
 }
 .onebox{color: white;
     width: 100%;
@@ -945,7 +975,7 @@ display: flex;
 }
 .heading{margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
 
 }
@@ -1034,7 +1064,8 @@ display: flex;
         font-size: 1.6rem;
     }
     .h1{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        text-align: center;
     }
     .dtails{
         margin-top: 30px;
@@ -1075,7 +1106,7 @@ display: flex;
 
     }
     .heading{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: bold;
 
     }

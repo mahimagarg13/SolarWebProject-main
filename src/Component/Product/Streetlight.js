@@ -1,17 +1,19 @@
 // import React  from "react";
 import Img19 from '../Img/streetlight.jpeg';
+import { Link } from 'react-router-dom';
+
 
 function streetlight() {
     return (
         <div className="div">
-            <p className="heading m">Street light</p>
+            <p className="heading m">Street Light</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
                     <img className="card-img-top" src={Img19} alt="streetlight1" />
                     <div className="card-body">
-                        <h5 className="card-title">Street light  </h5>
+                        <h4 className="card-title">Street Light  </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/streetlight.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/streetlight.pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -33,6 +35,8 @@ function streetlight() {
                                     <div className="mb-3">
                                         <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                                     </div>
+                                    <input type="text" className="d-none form-control" placeholder="Street light" id="recipient-name" />
+
                                 </form>
                             </div>
                             <div className="form-check">
@@ -50,6 +54,8 @@ function streetlight() {
                     </div>
                 </div>
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+            
         </div>
     );
 }

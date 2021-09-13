@@ -2,6 +2,8 @@ import React from "react";
 // import Img24 from '../Img/watercooler.jpeg';
 import Img25 from '../Img/watercooler1.jpeg';
 import Img26 from '../Img/watercooler2.jpeg';
+import { Link } from 'react-router-dom';
+
 function  Watercooler() {
     return(
 <div className="watercooler div">
@@ -14,8 +16,8 @@ function  Watercooler() {
                 <div className="card card-w">
                     <img className="card-img-top" src={Img25} alt="watercooler" />
                     <div className="card-body">
-                        <h5 className="card-title"> Water cooler 1</h5>
-                        <a href="/PDF's/watercooler" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <h4 className="card-title"> Water cooler 1</h4>
+                        <Link to="/PDF's/watercooler" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -23,9 +25,9 @@ function  Watercooler() {
                 <div className="card card-w">
                     <img className="card-img-top" src={Img26} alt="watercooler" />
                     <div className="card-body">
-                        <h5 className="card-title"> Water cooler 2</h5>
+                        <h4 className="card-title"> Water cooler 2</h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/watercooler" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/watercooler"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -45,6 +47,8 @@ function  Watercooler() {
                 <div className="mb-3">
                     <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                 </div>
+                <input type="text" className="d-none form-control" placeholder="Water Cooler" id="recipient-name" />
+
             </form>
         </div>
         <div className="form-check">
@@ -62,6 +66,8 @@ function  Watercooler() {
 </div>
 </div>
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
         </div>
 
     );

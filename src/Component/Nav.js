@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import "../App.css";
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
+import  { useEffect } from 'react';
 
 
 
 function Navbar() {
+    
     const [showLinks, setShowLinks] = useState(false)
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="Navbar">
             <div className="leftside"></div>
@@ -14,12 +19,12 @@ function Navbar() {
 
             <div className="rightside">
                 <div className="links" id={showLinks ? "hidden" : ""}>
-                <Link to="/" >Home</Link>
-                    <Link to="/about" >About Us</Link>
-                    <Link to="/product" >Product</Link>
-                    <Link to="/service" >Services</Link>
-                    <Link to="/portfolio" >Portfolio</Link>
-                    <Link to="/contact" >Contact Us</Link>
+                <Link to="/#" >Home</Link>
+                    <Link to="/about/#" >About Us</Link>
+                    <Link to="/product/#" >Product</Link>
+                    <Link to="/service/#" >Services</Link>
+                    <Link to="/portfolio/#" >Portfolio</Link>
+                    <Link to="/contact/#" >Contact Us</Link>
 
                    
                 </div>

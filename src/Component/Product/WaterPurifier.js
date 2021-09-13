@@ -1,16 +1,17 @@
 import React  from "react";
+import { Link } from 'react-router-dom';
 
 function  waterPurifier() {
     return (
         <div className="div">
-            <p className="heading m">Solar  Water Purifier</p>
+            <p className="heading m">Solar Water Purifier</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src="https://www.ozeanro.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/w/o/wooden3.jpg" alt="purifier1" />
+                    <img className="card-img-top " src="https://www.ozeanro.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/w/o/wooden3.jpg" alt="purifier1" />
                     <div className="card-body">
-                        <h5 className="card-title"> Water Purifier </h5>
+                        <h4 className="card-title"> Water Purifier </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/HWS Booklet 2019_A5 SIZE_10-10-19 (2).pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/HWS Booklet 2019_A5 SIZE_10-10-19 (2).pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -32,6 +33,8 @@ function  waterPurifier() {
                 <div className="mb-3">
                     <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                 </div>
+                <input type="text" className="d-none form-control" placeholder="Water Purifier" id="recipient-name" />
+
             </form>
         </div>
         <div className="form-check">
@@ -49,6 +52,8 @@ function  waterPurifier() {
 </div>
 </div>
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
         </div>
     );
 }

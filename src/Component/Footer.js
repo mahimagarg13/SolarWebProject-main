@@ -7,6 +7,7 @@ import PhoneRoundedIcon from '@material-ui/icons/PhoneRounded';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
 import { Link } from 'react-router-dom';
+import  { useEffect } from 'react';
 
 import {  orange } from '@material-ui/core/colors';
 const ColoredLine = ({ color }) => (
@@ -21,12 +22,15 @@ const ColoredLine = ({ color }) => (
   />
 );
 function Footer() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="nl">
-      <div className="container ">
-        <div className="onebox">
+      <div className="containe-fluid d-flex flex-wrap ">
+        <div className="onebox mrl">
           <img className="ft mt" src="image/logo.png" alt="logo" />
-          <p class="fnt-s"> ut labore et dolore magna aliquaut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud exercitation ullamco.</p>
+          <p class="fnt-s mlr"> ut labore et dolore magna aliquaut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud exercitation ullamco.</p>
         
         </div>
         <div className="twobox mt cl">

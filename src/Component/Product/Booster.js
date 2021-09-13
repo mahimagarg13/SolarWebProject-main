@@ -1,17 +1,22 @@
 // import React  from "react";
 // import Img1 from '../Img/booster1.jpeg';
 // import Img2 from '../Img/mhn.jpeg';
+import { Link } from 'react-router-dom';
+
+
 function Booster() {
     return (
         <div className="div">
+            {/* <Link to="/Product" className="btn btn-dark">Back</Link> */}
             <p className="heading m"> Pressure Booster Pumps</p>
+            
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
                     <img className="card-img-top" src="https://malvernirrigation.com.au/wp-content/uploads/2016/08/s-l640.jpg" alt="" />
                     <div className="card-body">
-                        <h5 className="card-title"> GRUNDFOS CM BOOSTER PUMPS</h5>
+                        <h4 className="card-title"> Grundfos CM Booster Pumps</h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/CM Booster.pdf" target="_blank"  className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/CM Booster.pdf" target="_blank"  className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -19,9 +24,9 @@ function Booster() {
                 <div className="card card-w">
                     <img className="card-img-top" src="https://th.bing.com/th/id/OIP.LyHHHjgOCRgbmi1hJXVtagHaHa?w=199&h=199&c=7&r=0&o=5&pid=1.7" alt="" />
                     <div className="card-body">
-                        <h5 className="card-title">LUBI PUMPS</h5>
+                        <h4 className="card-title mg-b40">Lubi Pumps</h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/Lubi Pump.pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/Lubi Pump.pdf" starget="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -41,6 +46,8 @@ function Booster() {
                                     <div className="mb-3">
                                         <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                                     </div>
+                                    <input type="text" className="d-none form-control" placeholder="Pressure Booster Pump" id="recipient-name" />
+
                                 </form>
                             </div>
                             <div className="form-check">
@@ -60,6 +67,8 @@ function Booster() {
 
 
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
         </div>
     );
 }

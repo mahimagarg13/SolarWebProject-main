@@ -1,6 +1,8 @@
 
 // import Img13 from '../Img/ongrid.jpeg';
 import Img14 from '../Img/offgrid.jpeg';
+import { Link } from 'react-router-dom';
+
 
 function rooftop() {
     return (
@@ -10,9 +12,9 @@ function rooftop() {
                 <div className="card text-center card-w" >
                     <img className="card-img-top" src="https://5.imimg.com/data5/TV/CY/MY-10927051/2-kw-solar-power-plant-500x500.jpg" alt="" />
                     <div className="card-body">
-                        <h5 className="card-title">ONGRID POWER PACK </h5>
+                        <h4 className="card-title">Ongrid Power Pack </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="#" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -20,9 +22,9 @@ function rooftop() {
                 <div className="card text-center card-w">
                     <img className="card-img-top" src={Img14} alt="" />
                     <div className="card-body">
-                        <h5 className="card-title">OFFGRID POWER PACK </h5>
+                        <h4 className="card-title">Offgrid Power Pack </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2 btn-outline-success">VIEW DETAILS</a>
+                        <Link to="#" target="_blank" className="btn mb-2 btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -45,6 +47,8 @@ function rooftop() {
                                         <div className="mb-3">
                                             <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                                         </div>
+                                    <input type="text" className="d-none form-control" placeholder="Solar Rooftop " id="recipient-name" />
+
                                     </form>
                                 </div>
                                 <div className="form-check">
@@ -62,6 +66,8 @@ function rooftop() {
                         </div>
                     </div>
                 </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
             </div>
         
     );

@@ -1,27 +1,29 @@
 // import React  from "react";
 import Img22 from '../Img/lhl.jpeg';
 import Img23 from '../Img/lhs.jpeg';
+import { Link } from 'react-router-dom';
+
 function SubmersiblePump() {
     return (
         <div className="div">
-            <p className="heading m">Solar  Water Purifier</p>
+            <p className="heading m">Horizontal Openwell Submarine Pump</p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src={Img22} alt="LHL" />
+                    <img className="card-img-top mg-b60" src={Img22} alt="LHL" />
                     <div className="card-body">
-                        <h5 className="card-title"> LHL </h5>
+                        <h4 className="card-title"> LHL </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/submersible.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/submersible.pdf" target="_blank"  className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img23} alt="LHS" />
+                    <img className="card-img-top mb-1" src={Img23} alt="LHS" />
                     <div className="card-body">
-                        <h5 className="card-title">LHS</h5>
+                        <h4 className="card-title">LHS</h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/submersible.pdf" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/submersible.pdf" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -41,6 +43,8 @@ function SubmersiblePump() {
                                     <div className="mb-3">
                                         <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                                     </div>
+                                    <input type="text" className="d-none form-control" placeholder="Horizontal Openwell Submarine Pump" id="recipient-name" />
+                                    
                                 </form>
                             </div>
                             <div className="form-check">
@@ -59,6 +63,8 @@ function SubmersiblePump() {
                 </div>
 
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
         </div>
     );
 }

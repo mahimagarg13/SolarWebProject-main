@@ -29,9 +29,64 @@ export default class index extends Component {
                 },
                 {
                     name:"five",
-                    src:"/Img/img4.jpeg",
+                    src:"/Img/eightt.jpeg",
                     tag:"five"
                 },
+                {
+                    name:"six",
+                    src:"/Img/fivee.jpeg",
+                    tag:"four"
+                },
+                {
+                    name:"seven",
+                    src:"/Img/forrr.jpeg",
+                    tag:"two"
+                },
+                {
+                    name:"eight",
+                    src:"/Img/eleev.jpeg",
+                    tag:"three"
+                },
+                {
+                    name:"nine",
+                    src:"/Img/ninnne.jpeg",
+                    tag:"four"
+                },
+                {
+                    name:"ten",
+                    src:"/Img/seven.jpeg",
+                    tag:"four"
+                },
+                {
+                    name:"elvn",
+                    src:"/Img/oone.jpeg",
+                    tag:"five"
+                },
+                {
+                    name:"twlve",
+                    src:"/Img/six.jpeg",
+                    tag:"four"
+                },
+                {
+                    name:"thrtn",
+                    src:"/Img/thrreee.jpeg",
+                    tag:"two"
+                },
+                {
+                    name:"fiftn",
+                    src:"/Img/ttwo.jpeg",
+                    tag:"four"
+                },
+                {
+                    name:"sixtn",
+                    src:"/Img/twels.jpeg",
+                    tag:"one"
+                },
+                {
+                    name:"sevntn",
+                    src:"/Img/ten.jpeg",
+                    tag:"two"
+                }
             ],
             images:[]
         };

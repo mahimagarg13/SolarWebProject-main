@@ -5,8 +5,11 @@ import Action from "./Aboutus/Action"
 import OurTeam from "./Aboutus/OurTeam"
 import Choose from './Home/Choose';
 import Mission from './Aboutus/Mission';
-
+import  { useEffect } from 'react';
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <>
             <Aboutus />

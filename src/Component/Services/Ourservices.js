@@ -1,5 +1,9 @@
+import React, { useEffect } from 'react';
 
 function Ourservices() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="our">
             <p className="heading m font">  Our Services Overview
@@ -10,21 +14,21 @@ function Ourservices() {
 
                 </div>
                 <div className="flex-right">
-                    <p className="ps">Respected Sir,<br />
+                    <p className="ps">
 
-Please note that we deal in one stop water solutions for domestic as well as commercial sites which   includes :-<br />
-
-1) solar Hybrid systems for Hot water <br />
-2) Solar Rooftop solutions with ongrid and offgrid<br />
-3) Heat Pump for Hot water<br />
-4) Water Softners for hard water<br />
-5) Water purifiers with Alkaline technology for domestic as well as industrial purpose<br />
-6) All kinds of pumping solutions <br />
-7) swimming pool heating systems.<br />
-8) Water chillers <br />
-9) Water coolers<br />
-
-
+Please note that we deal in one stop water solutions for domestic as well as commercial sites which   includes :-
+<br />
+<ul>
+ <li>Solar hybrid systems for hot water </li>
+ <li>Solar rooftop solutions with ongrid and offgrid</li>
+  <li>Heat pump for hot water</li>
+<li> Water softners for hard water</li>
+<li> Water purifiers with alkaline technology for domestic as well as industrial purpose</li>
+<li> All kinds of pumping solutions</li>
+<li> Swimming pool heating systems</li>
+<li> Water chillers</li>
+<li>Water coolers</li>
+ </ul>
 Kindly give us a chance to serve you with our aasured best services.<br />
                     </p>
 

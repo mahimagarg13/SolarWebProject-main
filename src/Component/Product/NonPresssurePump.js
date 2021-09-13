@@ -1,16 +1,17 @@
+import { Link } from 'react-router-dom';
 
 
 function nonpressurepump() {
     return (
         <div className="div">
-            <p className="heading m">Farmson Solar water Heater for Non pressurize application </p>
+            <p className="heading m">Farmson Solar Water Heater for Non Pressurize Application </p>
             <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
                     <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="100lpd" />
                     <div className="card-body">
-                        <h5 className="card-title">  100 lpd  </h5>
+                        <h4 className="card-title">  100 Lpd  </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -18,9 +19,9 @@ function nonpressurepump() {
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="150lpd" />
                     <div className="card-body">
-                        <h5 className="card-title"> 150 lpd  </h5>
+                        <h4 className="card-title"> 150 Lpd  </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                     <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -28,36 +29,36 @@ function nonpressurepump() {
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="200lpd" />
                     <div className="card-body">
-                        <h5 className="card-title">200 lpd </h5>
+                        <h4 className="card-title">200 Lpd </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="250lpd" />
                     <div className="card-body">
-                        <h5 className="card-title">250 lpd </h5>
+                        <h4 className="card-title">250 Lpd </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="300lpd" />
                     <div className="card-body">
-                        <h5 className="card-title">300 lpd </h5>
+                        <h4 className="card-title">300 Lpd </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/farmson.jpeg"  target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/IH/BH/ZM/SELLER-7431624/farmson-water-heater-500x500.jpg" alt="500lpd" />
                     <div className="card-body">
-                        <h5 className="card-title">500 lpd </h5>
+                        <h4 className="card-title">500 Lpd </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/farmson.jpeg" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/farmson.jpeg" target="_blank" className="btn mb-2  btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -77,6 +78,8 @@ function nonpressurepump() {
                                     <div className="mb-3">
                                         <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                                     </div>
+                                    <input type="text" className="d-none form-control" placeholder="Farmson Solar Water Heater for Non Pressurize Application " id="recipient-name" />
+
                                 </form>
                             </div>
                             <div className="form-check">
@@ -94,6 +97,8 @@ function nonpressurepump() {
                     </div>
                 </div>
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
         </div>
 
 

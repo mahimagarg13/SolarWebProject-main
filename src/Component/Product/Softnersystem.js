@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 // import Img18 from '../Img/purple.jpeg'
 function Softnersystem() {
@@ -8,9 +9,9 @@ function Softnersystem() {
                 <div className="card card-w" >
                     <img className="card-img-top" src="https://5.imimg.com/data5/SELLER/Default/2020/10/PO/SI/AC/101263134/zero-b-water-softener-500x500-500x500.jpg" alt="ngma" />
                     <div className="card-body">
-                        <h5 className="card-title">ZERO B MANUAL SOFTNER </h5>
+                        <h4 className="card-title">Zero B Manual Softner </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/zero b broschure.pdf" className="btn mb-2 btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/zero b broschure.pdf" target="_blank" className="btn mb-2 btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -18,9 +19,9 @@ function Softnersystem() {
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/FM/HT/NH/SELLER-25550021/zero-b-auto-soft-3-500x500.jpg" alt="ngmf" />
                     <div className="card-body">
-                        <h5 className="card-title">Zero B AUTOSOFT - 3 & 6 </h5>
+                        <h4 className="card-title">Zero B Autosoft - 3 & 6 </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/zero b broschure.pdf" className="btn mb-2 btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/zero b broschure.pdf" target="_blank" className="btn mb-2 btn-outline-success">VIEW DETAILS</Link>
                         <button
                         
                         className="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
@@ -30,18 +31,18 @@ function Softnersystem() {
                 <div className="card card-w">
                     <img className="card-img-top" src="https://th.bing.com/th/id/OIP.fLlrgLUDwmWFDLOvU0qT1AHaHa?w=181&h=180&c=7&r=0&o=5&pid=1.7" alt="zeroB" />
                     <div className="card-body">
-                        <h5 className="card-title">NGMA Carbon Filter</h5>
+                        <h4 className="card-title">NGMA Carbon Filter</h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/zero b broschure.pdf" className="btn mb-2 btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/zero b broschure.pdf" target="_blank" className="btn mb-2 btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
                 <div className="card card-w">
                     <img className="card-img-top" src="https://5.imimg.com/data5/XD/GI/MQ/SELLER-36825996/auto-sand-500x500.jpg" alt="zeroBpurple" />
                     <div className="card-body">
-                        <h5 className="card-title">ZERO B Auto Sand Filter </h5>
+                        <h4 className="card-title">Zero B Auto Sand Filter </h4>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="/PDF's/zero b broschure.pdf" className="btn mb-2 btn-outline-success">VIEW DETAILS</a>
+                        <Link to="/PDF's/zero b broschure.pdf" target="_blank" className="btn mb-2 btn-outline-success">VIEW DETAILS</Link>
                         <button className="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</button>
                     </div>
                 </div>
@@ -61,6 +62,8 @@ function Softnersystem() {
                                     <div className="mb-3">
                                         <input type="text" className="form-control" placeholder="City" id="recipient-name" />
                                     </div>
+                                    <input type="text" className="d-none form-control" placeholder="Solar Water Softner System" id="recipient-name" />
+
                                 </form>
                             </div>
                             <div className="form-check">
@@ -78,6 +81,8 @@ function Softnersystem() {
                     </div>
                 </div>
             </div>
+            <Link to="/Product" className="btn-lg m-2 btn btn-dark">Back</Link>
+
         </div>
     );
 }
